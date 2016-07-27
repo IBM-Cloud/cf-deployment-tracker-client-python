@@ -4,13 +4,14 @@ This is the source code for cf-deployment-tracker, a pip package that can track 
 
 ## How To Use
 
-1. Open a terminal and run  
-   ```
+1. Open a terminal and run
+
+   ```bash
    pip install cf-deployment-tracker
    ```
 2. Import the package at the entry point of your app and call the `track()` function.
 
-    ```
+    ```python
     import cf_deployment_tracker
     cf_deployment_tracker.track()
     ```
