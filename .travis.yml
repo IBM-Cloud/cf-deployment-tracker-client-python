@@ -1,0 +1,16 @@
+language: python
+cache:
+  - pip
+python:
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+# setup environment
+before_install:
+  - virtualenv venv
+  - source .env
+# command to install dependencies
+install: "pip install requests"
+# run tests
+script: python tests/test.py
