@@ -19,11 +19,11 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='cf_deployment_tracker',
-    version='1.0.0',
-    description='Python module for the Cloud Foundry deployment tracker',
+    name='cf-deployment-tracker',
+    version='1.0.1',
+    description='Python client for the Cloud Foundry deployment tracker',
     long_description=long_description,
-    url='https://github.com/IBM-Bluemix/cf_deployment_tracker-client-python',
+    url='https://github.com/IBM-Bluemix/cf-deployment-tracker-client-python',
     author='Jake Peyser',
     author_email='jepeyser@us.ibm.com',
     license='Apache-2.0',

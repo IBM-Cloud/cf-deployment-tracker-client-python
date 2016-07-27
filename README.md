@@ -1,6 +1,6 @@
 # Overview
 
-This is a pip package that can track and report details of a demo/tutorial that has been deployed to Cloud Foundry.
+This is the source code for cf-deployment-tracker, a pip package that can track and report details of a demo/tutorial that has been deployed to Cloud Foundry.
 
 ## How To Use
 
@@ -8,7 +8,8 @@ This is a pip package that can track and report details of a demo/tutorial that 
    ```
    pip install cf-deployment-tracker
    ```
-2. Import the package at the entry point of your app and call the `track()` function.  
+2. Import the package at the entry point of your app and call the `track()` function.
+
     ```
     import cf_deployment_tracker
     cf_deployment_tracker.track()
