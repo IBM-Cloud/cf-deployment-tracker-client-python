@@ -71,5 +71,3 @@ def track(tracker_url=None):
             print ('Uploaded stats: %s' % response.text)
         except Exception as e:
             print ('Deployment Tracker upload error: %s' % str(e))
-
-track()
