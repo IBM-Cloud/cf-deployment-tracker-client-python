@@ -1,5 +1,7 @@
 # Overview
 
+[![Build Status](https://travis-ci.org/IBM-Bluemix/cf-deployment-tracker-client-python.svg?branch=master)](https://travis-ci.org/IBM-Bluemix/cf-deployment-tracker-client-python)
+
 This is the source code for cf-deployment-tracker, a pip package that can track and report details of a demo/tutorial that has been deployed to Cloud Foundry.
 
 ## How To Use

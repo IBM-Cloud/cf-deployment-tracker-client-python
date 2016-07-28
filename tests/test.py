@@ -1,6 +1,12 @@
 import unittest
 from cf_deployment_tracker import track
 
+
+def suite():
+    test_suite = unittest.TestSuite()
+    test_suite.addTest(DeployEventTestCase('deploy_event_test'))
+    return test_suite
+
 ###########################
 #        Unit Tests       #
 ###########################
