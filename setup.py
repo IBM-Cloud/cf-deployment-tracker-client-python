@@ -20,7 +20,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='cf-deployment-tracker',
-    version='1.0.4',
+    version='1.0.5',
     description='Python client for the Cloud Foundry deployment tracker',
     long_description=long_description,
     url='https://github.com/IBM-Bluemix/cf-deployment-tracker-client-python',
@@ -28,7 +28,7 @@ setup(
     author_email='jepeyser@us.ibm.com',
     license='Apache-2.0',
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 7 - Inactive',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: Apache Software License',
@@ -39,5 +39,4 @@ setup(
     ],
     keywords='demos samples metrics',
     packages=find_packages(exclude=['tests']),
-    install_requires=['requests>=2'],
 )
